@@ -1,0 +1,12 @@
+{
+  "url": "https://index.html",
+  "idCitadoValue": "Z1111111X",
+  "desCitadoValue": "NAME LASTNAME SECONDLASTNAME",
+  "paisNacValue": "COUNTRY",
+  "tramiteOptionText": "P",
+  "receiver_email": "receiver.email@gmail.com",
+  "sender_email": "sender.email@gmail.com",
+  "password": "google.app.password(different from regular password)",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 465
+}

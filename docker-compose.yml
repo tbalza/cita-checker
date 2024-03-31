@@ -1,0 +1,20 @@
+version: '3.8'
+services:
+  seleniumbasevnc:
+    shm_size: 2g # larger shared memory space for running browsers
+    image: selbasevnc
+    tty: true  # Allocates a pseudo-TTY, similar to running `-t` in `docker run`
+    stdin_open: true  # Keeps stdin open, similar to running `-i` in `docker run`
+    ports:
+      - "4444:4444"  # Service port mapping
+      - "5900:5900" # Expose VNC server port
+      - "6080:6080" # Access VNC at http://127.0.0.1:6080
+    volumes:
+      - ./cita-check.py:/tmp/cita-check.py
+      - ./values.json:/tmp/values.json
+    ulimits: # fixes a bug with vnc not working
+      nofile:
+        soft: 65536
+        hard: 65536
+    environment:
+      - DISPLAY=:99.0 # Needed to run a visible browser window
