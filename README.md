@@ -1,6 +1,8 @@
 
 # Appointment Checker: Web browser test automation with Docker and SeleniumBase
 
+<img src="images/cita-check.gif" alt="Your image description" width="852"/>
+
 A very modest but effective Docker-based automation script, leveraging [SeleniumBase](https://github.com/seleniumbase/SeleniumBase), designed to navigate through multi-page JavaScript forms and identify available appointments.
 
 Operates seamlessly in the background, checks for appointments and also notifies users via email, complete with screenshots upon successful detection.
