@@ -1,5 +1,5 @@
 
-# Appointment Checker: Web browser test automation with Docker and SeleniumBase
+# Web Browser Test Automation with Docker and SeleniumBase
 
 <img src="images/cita-check.gif" alt="Your image description" width="852"/>
 
