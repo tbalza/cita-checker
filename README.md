@@ -1,5 +1,5 @@
 
-# Web Browser Test Automation with Docker and SeleniumBase
+# Test Automation with Docker and SeleniumBase: Appointment Checker
 
 <img src="images/cita-check.gif" alt="Your image description" width="852"/>
 
@@ -7,7 +7,7 @@ A very modest but effective Docker-based automation script, leveraging [Selenium
 
 Operates seamlessly in the background, checks for appointments and also notifies users via email, complete with screenshots upon successful detection.
 
-A full breakdown can be found at my [blogpost](https://tbalza.net/test-automation-with-docker-and-seleniumbase/).
+A full breakdown can be found at my [blogpost](https://tbalza.net/leveraging-docker-and-selenium-for-efficient-appointment-checking/).
 
 ## Requirements
 Install the necessary tools using [Homebrew](https://docs.brew.sh/Installation):
